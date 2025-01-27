@@ -1,0 +1,11 @@
+/* TV Static Animation */
+@keyframes tvStatic {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+
+.bg-static {
+  animation: tvStatic 0.5s steps(10) infinite;
+  opacity: 0.1;
+  mix-blend-mode: screen;
+}
