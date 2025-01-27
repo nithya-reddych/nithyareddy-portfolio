@@ -138,7 +138,7 @@ export function Decorations() {
 
 
       {/* Other Decorative Elements */}
-      <group position={[-4, 0.75, -4.45]} scale={[1.5, 1.5, 1.5]}>
+      <group position={[-4, 0, -4.5]} scale={[1, 1, 1]}>
         <primitive object={plant1.scene} />
       </group>
 
